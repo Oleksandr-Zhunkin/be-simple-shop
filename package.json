@@ -1,0 +1,24 @@
+{
+  "name": "be-simple-shop",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "main": "app.js",
+  "repository": "https://github.com/Oleksandr-Zhunkin/be-simple-shop.git",
+  "author": "Oleksandr Zhynkin <godinsighted@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "mongoose": "^8.7.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
